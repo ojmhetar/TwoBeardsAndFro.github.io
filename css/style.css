@@ -47,7 +47,7 @@
 }
 
 #savrIcon {
-    background:transparent url(pig.png) no-repeat center center;
+    background:transparent url(../images/pig.png) no-repeat center center;
     background-size: 20%;
     height: 100%;
 }
@@ -56,7 +56,7 @@
     background: linear-gradient(
       rgba(40, 17, 64, 0.45), 
       rgba(40, 17, 64, 0.45)
-    ), url(whiteshoes.jpg) no-repeat center center; 
+    ), url(../images/whiteshoes.jpg) no-repeat center center; 
     background-size: 70%;
     height: 100%;
 }
@@ -69,7 +69,7 @@
 
 #mealKingIcon{ 
     
-    background:transparent url(mk_icon.png) no-repeat center center;
+    background:transparent url(../images/mk_icon.png) no-repeat center center;
     background-size: 20%;
     height: 100%;
     
@@ -79,7 +79,7 @@
     background: linear-gradient(
       rgba(40, 17, 64, 0.45), 
       rgba(40, 17, 64, 0.45)
-    ), url(spagetti.jpg) no-repeat center center; 
+    ), url(../images/spagetti.jpg) no-repeat center center; 
     background-size: 300%;
     height: 100%;
 }
