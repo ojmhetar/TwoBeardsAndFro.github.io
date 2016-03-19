@@ -14,6 +14,7 @@
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
+
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -34,60 +35,112 @@
   animation-duration:2.3s;
 }
 
-.team-pics img {
-    height: 300px;
-    width: auto;
-    overflow:hidden;
-    border-radius:50%;
+body {
+ 
+    overflow-x: hidden;
 }
 
-#savrBackground { 
-    background-color: #281140;
+
+.project-container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+/*    background-color: rgba(237, 30, 138, .5);*/
+}
+
+.project-container .full-height{
+    height: 100%;
+    opacity: 0;
+    transform: scale(1.1);
     
 }
 
-#savrIcon {
-    background:transparent url(../images/pig.png) no-repeat center center;
+.project-container .half-height {
+    height: 50%;
+    opacity: 0;
+}
+
+.project-container .proj-logo-position{ 
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 100%;   
+}
+
+
+.project-container:hover img{
+    -webkit-animation:fadeIn ease-in 1;  
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:.5s;
+  -moz-animation-duration:.5s;
+  animation-duration:.5s; 
+  transform-origin: 50% 50%;
+  transition: transform 8s linear; 
+  transform: scale(1.30);
+}
+
+
+
+#mk-logo:hover{
+    background-color: rgba(237, 30, 138, .5);
+}
+
+#mob-logo:hover{
+    background-color: rgba(203, 204, 203, .5);
+}
+
+#savr-logo:hover{
+    background-color: rgba(25, 11, 29, .5);
+}
+
+
+#mob-logo {
+    
+    background:transparent url(../images/mob_logo_black.png) no-repeat center center;
+    background-color: rgba(203, 204, 203, 1);
+    background-size: 30%;
+    height: 100%;    
+}
+
+
+#savr-logo {
+    
+    background:transparent url(../images/savr_logo_color.png) no-repeat center center;
+    background-color: rgba(25, 11, 29, 1);
+    background-size: 30%;
+    height: 100%;    
+}
+
+#mk-logo {
+    
+    background:transparent url(../images/mk_logo_black.png) no-repeat center center;
+    background-color: rgba(237, 30, 138, 1);
+    
+    background-size: 30%;
+    height: 100%;    
+}
+
+#company-text {
+    
+    background-color: transparent url(../images/mk_logo_black.png) no-repeat center center; 
+    background-color: #404040;
+    background-size: 30%;
+    height: 100%;
+    
+}
+
+#small-box-test { 
+    background:transparent url(../images/savr_logo_color.png) no-repeat center center;
+    background-color: rgba(25, 11, 29, .95);
     background-size: 20%;
-    height: 100%;
-}
-
-#savrBackground:hover {
-    background: linear-gradient(
-      rgba(40, 17, 64, 0.45), 
-      rgba(40, 17, 64, 0.45)
-    ), url(../images/whiteshoes.jpg) no-repeat center center; 
-    background-size: 70%;
-    height: 100%;
-}
-
-
-#mealKingBackground {
-    background-color: #F5EDF3;
+    height: 50%; 
     
-}
-
-#mealKingIcon{ 
-    
-    background:transparent url(../images/mk_icon.png) no-repeat center center;
-    background-size: 20%;
-    height: 100%;
-    
-}
-
-#mealKingBackground:hover {
-    background: linear-gradient(
-      rgba(40, 17, 64, 0.45), 
-      rgba(40, 17, 64, 0.45)
-    ), url(../images/spagetti.jpg) no-repeat center center; 
-    background-size: 300%;
-    height: 100%;
-}
-
-
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 
