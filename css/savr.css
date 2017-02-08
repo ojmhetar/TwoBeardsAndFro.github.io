@@ -1,0 +1,23 @@
+#topTitle {
+    background-color: cadetblue;
+}
+
+#slogan {
+    background-color: cornflowerblue;
+}
+
+#description {
+    background-color: firebrick;
+}
+
+#imageWrapper { 
+    background-color: aqua;
+    position: relative; 
+    height: 500px; 
+} /* height is for display purposes only */
+
+
+#bottomImage { 
+    position: absolute; 
+    bottom: 0; 
+}
