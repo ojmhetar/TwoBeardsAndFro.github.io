@@ -1,6 +1,9 @@
-body {
+html{
     background-color: #140324;
-    margin-bottom:-10px;
+}
+
+body {
+    padding-bottom: -150px;
 }
 
 h1 {
@@ -9,31 +12,38 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300i;
+    font-size: 130%;
+    color: white;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
 #title {
     padding-top: 100px;
-    padding-left: 100px;
+    padding-left: 10%;
     padding-bottom: 20px;
 }
 
 #slogan {
-    background-color: cornflowerblue;
+    padding-left: 10%;
 }
 
 #description {
-    background-color: firebrick;
+    padding-right: 15%;
+    padding-left: 10%;
 }
 
-#imageWrapper { 
-    background-color: aqua;
-    position: relative; 
-    height: 700px;
-} /* height is for display purposes only */
-
 #jointImage {
-    position: fixed;
-    /*bottom: -35%;*/
+    position: absolute;
     bottom: -200px;
-    left: -35;
+    left: -35px;
     width: 130%;
     max-width: 650px;
     min-width: 300px;
