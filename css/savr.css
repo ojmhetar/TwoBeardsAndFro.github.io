@@ -1,5 +1,17 @@
-#topTitle {
-    background-color: cadetblue;
+body {
+    background-color: #140324;
+}
+
+h1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 275%;
+    color: white;
+}
+
+#title {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 20px;
 }
 
 #slogan {
@@ -13,11 +25,21 @@
 #imageWrapper { 
     background-color: aqua;
     position: relative; 
-    height: 500px; 
+    height: 700px;
 } /* height is for display purposes only */
 
+#jointImage {
+    position: fixed;
+    /*bottom: -35%;*/
+    bottom: -200px;
+    left: -35;
+    width: 130%;
+    max-width: 650px;
+    min-width: 300px;
+}
 
-#bottomImage { 
-    position: absolute; 
-    bottom: 0; 
+.rotate {
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari */
+    transform: rotate(45deg);
 }
