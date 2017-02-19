@@ -51,8 +51,8 @@ i {
 
 #jointImage {
     position: absolute;
-    bottom: -200px;
-    left: -35px;
+    bottom: -20%;
+    height: 75%;
     width: 130%;
     max-width: 650px;
     min-width: 300px;
